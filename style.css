@@ -70,7 +70,7 @@ header ul li a:hover{
 }
 
 
-.btn {
+.btn{
     padding: 10px 20px;
     border-radius: 30px;
     background-color: orange;
@@ -88,7 +88,7 @@ header ul li a:hover{
 .banner{
     width: 100%;
     min-height: 100vh;
-    background: url(../img/AC.jpg);
+    background: url(img/AC.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
