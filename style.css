@@ -109,7 +109,7 @@ header ul li a:hover{
 .sec{
     background: #fff;
     padding: 100px;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,8 +185,8 @@ p{
 
 .stats{
     background: #000;
-    padding-top: 250px;
-    margin-top: -250px;
+    padding-top: 40px;
+    margin-top: 0;
 }
 
 .stats h3,
@@ -216,7 +216,7 @@ p{
 }
 
 /* =======================
-   Logros
+   Noticias
    ======================= */
 
 .news{
@@ -225,7 +225,7 @@ p{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
     max-width: 100%;
-    margin-top: 40px;
+    margin-top: 40px;    
 }
 
 .news .brand{
@@ -322,8 +322,9 @@ p{
    Contacto
    ======================= */
 
-   .contact{
+.contact{
     background: #000;
+    height: 900px;
 }
 
 .contact h3, .contact p{

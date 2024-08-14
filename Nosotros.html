@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto Comunidades 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo" alt="">        
+        <ul>
+            <li><a href="index.html" onclick="alternar()">inicio</a></li>
+            <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
+            <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
+            <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
+            <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
+            <li class="btn"><a href="#">Ingresar</a></li>                    
+        </ul>
+        <div class="toggle" onclick="alternar()"></div>  
+    </header>
+
+    <section>
+        <h2>ALTO COMUNIDADES</h2>
+    </section>
+
+    <!--=================
+    Nosotros
+    =================-->
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="about-text">
+                <h3>Quienes Somos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio alias ut rem consequatur
+                    provident dolores quasi dicta perferendis. In unde similique blanditiis eligendi, vitae quisquam
+                    reprehenderit voluptatum dolore itaque.</p>
+                <a href="#" class="btn2">Saber Más</a>
+            </div>
+        </div>
+    </section>    
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function alternar(){
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }        
+    </script>
+</body>
+
+</html>

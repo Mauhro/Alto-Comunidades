@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto Comunidades 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo" alt="">        
+        <ul>
+            <li><a href="index.html" onclick="alternar()">inicio</a></li>
+            <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
+            <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
+            <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
+            <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
+            <li class="btn"><a href="#">Ingresar</a></li>                    
+        </ul>
+        <div class="toggle" onclick="alternar()"></div>  
+    </header>
+
+    <section>
+        <h2>ALTO COMUNIDADES</h2>
+    </section>    
+
+    <!--=================
+    Servicios
+    =================-->
+
+    <section class="sec" id="services">
+        <div class="content">
+            <div class="about-text">
+                <h3>Servicios</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, explicabo optio magnam dolor, quasi ea
+                    ex vel quo unde ratione voluptas voluptatum laudantium, atque illum repellat placeat assumenda
+                    doloremque hic?</p>
+            </div>
+            <div class="services">
+                <div class="box">
+                    <div class="iconbx">
+                        <img src="img/home.svg">
+                    </div>
+                    <div class="content">
+                        <h2>Administración de Edificios</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, magni!</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="iconbx">
+                        <img src="img/home.svg">
+                    </div>
+                    <div class="content">
+                        <h2>Outsourcing</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, magni!</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="iconbx">
+                        <img src="img/home.svg">
+                    </div>
+                    <div class="content">
+                        <h2>Corredora</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, magni!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function alternar(){
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }        
+    </script>
+</body>
+
+</html>

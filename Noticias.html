@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto Comunidades 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo" alt="">        
+        <ul>
+            <li><a href="index.html" onclick="alternar()">inicio</a></li>
+            <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
+            <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
+            <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
+            <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
+            <li class="btn"><a href="#">Ingresar</a></li>                    
+        </ul>
+        <div class="toggle" onclick="alternar()"></div>  
+    </header>
+
+    <section>
+        <h2>ALTO COMUNIDADES</h2>
+    </section>    
+
+    <!--=================
+    Noticias
+    =================-->
+    <section class="sec work" id="news">
+        <div class="content">
+            <div class="about text">
+                <h3>Noticias</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum saepe, impedit omnis consectetur
+                    molestiae eveniet cumque ex itaque consequatur aliquam reprehenderit accusantium dolor,
+                    necessitatibus atque laboriosam similique, explicabo sapiente voluptatibus.</p>
+            </div>
+            <div class="news">
+                <div class="brand">
+                    <a href="Noticia1.html">
+                        <h2>Noticia 1</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="Noticia2.html">
+                        <h2>Noticia 2</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="Noticia3.html">
+                        <h2>Noticia 3</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="Noticia4.html">
+                        <h2>Noticia 4</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="#">
+                        <h2>Noticia 5</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="#">
+                        <h2>Noticia 6</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="#">
+                        <h2>Noticia 7</h2>
+                    </a>
+                </div>
+                <div class="brand">
+                    <a href="#">
+                        <h2>Noticia 8</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function alternar(){
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }        
+    </script>
+</body>
+
+</html>

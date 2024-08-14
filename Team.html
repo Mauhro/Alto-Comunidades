@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto Comunidades 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logo" alt="">        
+        <ul>
+            <li><a href="index.html" onclick="alternar()">inicio</a></li>
+            <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
+            <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
+            <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
+            <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
+            <li class="btn"><a href="#">Ingresar</a></li>                    
+        </ul>
+        <div class="toggle" onclick="alternar()"></div>  
+    </header>
+
+    <section>
+        <h2>ALTO COMUNIDADES</h2>
+    </section>
+
+    <!--=================
+        Team
+    =================-->
+
+    <section class="sec" id="team">
+        <div class="content">
+            <div class="about text">
+                <h3>Conoce a Nuestro Equipo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius ea pariatur nemo animi
+                    consectetur expedita, molestiae doloremque vitae corrupti! Earum ipsum molestiae adipisci doloremque
+                    impedit laudantium, id ut exercitationem!</p>
+            </div>
+            <div class="teambx">
+                <div class="member">
+                    <div class="imgbx">
+                        <img src="img/team.png">
+                    </div>
+                    <div class="details">
+                        <h2>VANESSA <br> <span> Contador Auditor</span></h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgbx">
+                        <img src="img/team.png">
+                    </div>
+                    <div class="details">
+                        <h2>ALEJANDRO <br> <span> Supervisor Inmobiliario</span></h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgbx">
+                        <img src="img/team.png">
+                    </div>
+                    <div class="details">
+                        <h2>TAMARA <br> <span> Gerente General</span></h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="imgbx">
+                        <img src="img/team.png">
+                    </div>
+                    <div class="details">
+                        <h2>MAURICIO <br> <span> Gerente Personas</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <script type= "text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function alternar(){
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }        
+    </script>
+</body>
+
+</html>
