@@ -11,7 +11,7 @@
 body{
     min-height: 1000px;
     font-family: sans-serif;
-    text-transform: capitalize;   
+      
 }
 
 header{
@@ -121,7 +121,7 @@ header ul li a:hover{
 .sec .content{
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 100%;    
 }
 
 .about-text{
@@ -137,6 +137,11 @@ header ul li a:hover{
     text-decoration: none;
 }
 
+.btn2:hover{
+    background-color: orange;
+    color: #000;
+}
+
 h3{
     font-size: 40px;
     font-weight: 700;
@@ -146,8 +151,14 @@ h3{
 p{
     font-size: 18px;
     font-weight: 300px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    font-weight: lighter;    
 }
+
+/* =======================
+   Sección Servicios
+   ======================= */
+
 
 .services{
     display: grid;
@@ -329,8 +340,13 @@ p{
     height: 980px;
 }
 
-.contact h3, .contact p{
+.contact h3{
     color: #fff;
+}
+
+.contact p{
+    color: #fff;
+    font-weight: lighter;
 }
 
 .contactform{

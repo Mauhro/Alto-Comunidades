@@ -15,19 +15,20 @@
     <!-- Link de mi CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="img/logo.png" class="logo" alt="">        
+        <img src="img/logo.png" class="logo" alt="">
         <ul>
             <li><a href="index.html" onclick="alternar()">inicio</a></li>
             <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
             <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
             <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
             <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
-            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
-            <li class="btn"><a href="#">Ingresar</a></li>                    
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>
+            <li class="btn"><a href="#">Ingresar</a></li>
         </ul>
-        <div class="toggle" onclick="alternar()"></div>  
+        <div class="toggle" onclick="alternar()"></div>
     </header>
 
     <section>
@@ -42,19 +43,19 @@
         <div class="content">
             <div class="about-text">
                 <h3 class="animate__animated animate__flipInY">Quienes Somos</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore odio alias ut rem consequatur
-                    provident dolores quasi dicta perferendis. In unde similique blanditiis eligendi, vitae quisquam
-                    reprehenderit voluptatum dolore itaque.</p>
+                <p>Somos una empresa de administración inmobiliaria, orientada exclusivamente al servicio, satisfacción
+                    y calidad de vida de todas las personas que habitan en una comunidad formada por profesionales de
+                    excelencia y altamente calificados.</p>
                 <a href="#" class="btn2">Saber Más</a>
             </div>
         </div>
-    </section>    
-    <script type= "text/javascript">
-        window.addEventListener("scroll", function(){
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
-        function alternar(){
+        function alternar() {
             var header = document.querySelector("header");
             header.classList.toggle("active");
         }        

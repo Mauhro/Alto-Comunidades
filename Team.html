@@ -15,19 +15,20 @@
     <!-- Link de mi CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="img/logo.png" class="logo" alt="">        
+        <img src="img/logo.png" class="logo" alt="">
         <ul>
             <li><a href="index.html" onclick="alternar()">inicio</a></li>
             <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
             <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
             <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
             <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
-            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
-            <li class="btn"><a href="#">Ingresar</a></li>                    
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>
+            <li class="btn"><a href="#">Ingresar</a></li>
         </ul>
-        <div class="toggle" onclick="alternar()"></div>  
+        <div class="toggle" onclick="alternar()"></div>
     </header>
 
     <section>
@@ -42,9 +43,12 @@
         <div class="content">
             <div class="about text">
                 <h3 class="animate__animated animate__flipInY">Conoce a Nuestro Equipo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eius ea pariatur nemo animi
-                    consectetur expedita, molestiae doloremque vitae corrupti! Earum ipsum molestiae adipisci doloremque
-                    impedit laudantium, id ut exercitationem!</p>
+                <p>Somos una organizació de excelencia con profesionales del área de la ingeniería, especializados,
+                    expertos en el área de la administración, diplomados en alta dirección con mas de 20 años de
+                    experiencia, quienes son el soporte principal que permite a Alto Comunidades, desarrollar los
+                    proyectos de administración inmobiliaria. Etica, esfuerzo, responsabilidad y transparencia son las
+                    virtudes que caracterizan nuestra gestión.
+                </p>
             </div>
             <div class="teambx">
                 <div class="member">
@@ -81,13 +85,13 @@
                 </div>
             </div>
         </div>
-    </section>    
-    <script type= "text/javascript">
-        window.addEventListener("scroll", function(){
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
-        function alternar(){
+        function alternar() {
             var header = document.querySelector("header");
             header.classList.toggle("active");
         }        

@@ -15,24 +15,25 @@
     <!-- Link de mi CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="img/logo.png" class="logo" alt="">        
+        <img src="img/logo.png" class="logo" alt="">
         <ul>
             <li><a href="index.html" onclick="alternar()">inicio</a></li>
             <li><a href="Nosotros.html" onclick="alternar()">Nosotros</a></li>
             <li><a href="Servicios.html" onclick="alternar()">Servicios</a></li>
             <li><a href="Noticias.html" onclick="alternar()">Noticias</a></li>
             <li><a href="Team.html" onclick="alternar()">Equipo</a></li>
-            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>            
-            <li class="btn"><a href="#">Ingresar</a></li>                    
+            <li><a href="Contacto.html" onclick="alternar()">Contacto</a></li>
+            <li class="btn"><a href="#">Ingresar</a></li>
         </ul>
-        <div class="toggle" onclick="alternar()"></div>  
+        <div class="toggle" onclick="alternar()"></div>
     </header>
 
     <section>
         <h2>ALTO COMUNIDADES</h2>
-    </section>    
+    </section>
 
     <!--=================
     Servicios
@@ -42,9 +43,10 @@
         <div class="content">
             <div class="about-text">
                 <h3 class="animate__animated animate__flipInY">Servicios</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, explicabo optio magnam dolor, quasi ea
-                    ex vel quo unde ratione voluptas voluptatum laudantium, atque illum repellat placeat assumenda
-                    doloremque hic?</p>
+                <p>Nuestras labores como Administradores se enmarcan dentro de las funciones y obligaciones que
+                    corresponden a la administración y mantenimiento de los bienes y espacios comunes del edificio o
+                    condominio, a que se refiera la Ley 21.442 y el Reglamento de Copropiedad de la Comunidad.
+                </p>
             </div>
             <div class="services">
                 <div class="box">
@@ -76,13 +78,13 @@
                 </div>
             </div>
         </div>
-    </section>    
-    <script type= "text/javascript">
-        window.addEventListener("scroll", function(){
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
-        function alternar(){
+        function alternar() {
             var header = document.querySelector("header");
             header.classList.toggle("active");
         }        
