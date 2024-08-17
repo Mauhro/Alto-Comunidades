@@ -110,8 +110,7 @@ header ul li a:hover{
 
 .sec{
     background: #fff;
-    padding: 100px;
-    min-height: 100vh;
+    padding: 100px;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -526,8 +525,7 @@ p{
     
 }
 
-.container{
-    display: flex;
+.container{    
     max-width: 1200px;
     margin: 0 auto;    
 }
@@ -605,5 +603,3 @@ h5{
 .social-links a:hover{
     background-color: orange;
 }
-
-
