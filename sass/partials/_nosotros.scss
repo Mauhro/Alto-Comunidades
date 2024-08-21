@@ -1,0 +1,48 @@
+.sec{
+    padding: 100px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+
+    .content{
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+}       
+
+.about-text{
+    max-width: 600px;
+    margin: 0 auto;
+}    
+
+.btn2{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}    
+
+.btn2:hover{
+        background-color: orange;
+        color: #000;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;   
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+    font-weight: lighter;    
+}
+             
+    
+
+
