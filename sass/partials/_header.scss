@@ -1,6 +1,6 @@
-body{
+/*body{
     min-height: 1000px;
-}    
+}*/    
 
 header{
     position: fixed;
@@ -22,7 +22,7 @@ header{
     ul{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;             
     }
 
     li{
@@ -32,7 +32,7 @@ header{
     a{
         margin: 0 20px;
         text-decoration: none;
-        color: #fff;
+        color: white;
         font-weight: 300;
         font-size: 14px;        
     }
@@ -59,7 +59,7 @@ header{
 .banner{
     width: 100%;
     min-height: 100vh;
-    background: url(/img/AC.jpg);   
+    background: url(/img/AC.jpg);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -8,10 +8,9 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  min-height: 1000px;
-}
-
+/*body{
+    min-height: 1000px;
+}*/
 header {
   position: fixed;
   top: 0;
@@ -39,7 +38,7 @@ header li {
 header a {
   margin: 0 20px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: 300;
   font-size: 14px;
 }
@@ -80,11 +79,12 @@ header ul li a:hover {
   padding: 10px 20px;
   border-radius: 30px;
   background-color: orange;
-  color: white;
   font-weight: 400;
-  cursor: pointer;
   font-size: 14px;
   text-transform: uppercase;
+}
+.btn:hover {
+  background-color: rgb(211, 205, 205);
 }
 
 .stats {
@@ -184,6 +184,13 @@ header ul li a:hover {
   max-width: 600px;
   margin: 0 auto;
 }
+.about-text p {
+  font-size: 18px;
+  font-weight: 300px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  text-align: justify;
+}
 
 .btn2 {
   display: inline-block;
@@ -250,7 +257,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.news .brand :hover {
+.news .brand:hover {
   background: #2e2929;
 }
 .news .brand a {
@@ -260,10 +267,10 @@ h3 {
 }
 
 .teambx {
-  position: relative;
+  /*position: relative;*/
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 30px;
   max-width: 100%;
   margin-top: 40px;
 }
@@ -305,7 +312,7 @@ h3 {
   transition: 0.2s;
   opacity: 0;
 }
-.teambx .member .details :hover {
+.teambx .member .details:hover {
   opacity: 1;
 }
 .teambx .member .details h2 {
@@ -320,7 +327,8 @@ h3 {
 
 .contact {
   background: #000;
-  height: 980px;
+  height: 750px;
+  max-width: 100%;
 }
 .contact h3 {
   color: #fff;
