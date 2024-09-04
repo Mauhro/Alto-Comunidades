@@ -1,7 +1,8 @@
 .contact{
     background: #000;
-    height: 750px;
+    height: 800px;
     max-width: 100%;
+    padding-top: 50px;
 
     h3{
         color: #fff;
@@ -50,7 +51,7 @@
             font-size: 18px;
             font-weight: 300;
             margin: 20px 0;
-            resize: none;            
+            resize: none;
             
             ::placeholder{
                 color: rgba(225, 225, 225, 0.5);
@@ -63,7 +64,12 @@
             max-width: 100px;
             text-transform: uppercase;    
             cursor: pointer;
-            font-weight: 500;            
+            font-weight: 500;
+            
+            input:hover{
+                background-color: orange;
+                color: #fff;
+            }
         }        
     }
 }

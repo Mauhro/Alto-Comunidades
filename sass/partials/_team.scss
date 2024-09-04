@@ -1,11 +1,11 @@
 .teambx{
-    /*position: relative;*/
+    position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
     max-width: 100%;
     margin-top: 40px;
-
+    
     .member{
         position: relative;
         background: #000;
@@ -41,7 +41,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #000;
+            background: rgba(222, 137, 40, 0.444);
             transition: 0.2s;
             opacity: 0;
 
