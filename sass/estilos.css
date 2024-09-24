@@ -8,9 +8,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-/*body{
-    min-height: 1000px;
-} */
 header {
   position: fixed;
   top: 0;
@@ -63,14 +60,14 @@ header ul li a:hover {
 .banner {
   width: 100%;
   min-height: 100vh;
-  background-image: url(../img/AC.jpg);
+  background-image: url(../img/ac.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.banner h2 {
+.banner h1 {
   color: orange;
   font-size: 40px;
   text-align: center;
@@ -127,10 +124,6 @@ header ul li a:hover {
   padding: 80px 0;
 }
 
-/*.footer-links{
-    width: 100%;
-    margin-bottom: 10px;
-}*/
 .footer-links h4 {
   font-size: 20px;
   color: #fff;
@@ -142,18 +135,6 @@ header ul li a:hover {
   text-align: center;
 }
 
-/*.footer-links ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    margin-bottom: 15px;
-    transition: all .3s ease;
-}*/
-/*.footer-links ul li a:hover{
-    color: #fff;
-    padding-left: 6px;
-}*/
 .social-links a {
   display: inline-block;
   min-height: 40px;
@@ -461,7 +442,6 @@ h3 {
     visibility: visible;
     opacity: 1;
     display: block;
-    /*padding-top: 20px;*/
     padding: 20px 20px 20px 20px;
   }
   header.active ul ul li a {
