@@ -65,18 +65,39 @@
                     </div>                
                 </div>
             </div>
-        </section>    
-        <script type= "text/javascript">
-            window.addEventListener("scroll", function(){
-                var header = document.querySelector("header");
-                header.classList.toggle("sticky", window.scrollY > 0);
-            })
-            function alternar(){
-                var header = document.querySelector("header");
-                header.classList.toggle("active");
-            }        
-        </script>
+        </section>       
     </main>
+
+    <!--=================
+    Footer
+    =================-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-text">@Alto Comunidades 2024 | Todos los derechos Reservados</p>
+    </footer>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function alternar() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }        
+    </script>
 </body>
 
 </html>
